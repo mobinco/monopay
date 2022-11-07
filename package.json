@@ -12,13 +12,13 @@
     "test": "jest --runInBand",
     "test:cov": "jest --coverage --runInBand"
   },
-  "homepage": "https://alitnk.github.io/monopay",
+  "homepage": "https://github.com/mobinco/monopay",
   "repository": {
     "type": "git",
-    "url": "https://github.com/alitnk/monopay.git"
+    "url": "https://github.com/mobinco/monopay.git"
   },
   "bugs": {
-    "url": "https://github.com/alitnk/monopay/issues"
+    "url": "https://github.com/mobinco/monopay/issues"
   },
   "name": "monopay",
   "description": "A node.js package for making payment transactions with different Iranian IPGs",
