@@ -10,7 +10,7 @@
     "node": ">=14.0.0"
   },
   "scripts": {
-    "prebuild": "rimraf dist",
+    "#prebuild": "rimraf dist",
     "build": "tsc --build ./tsconfig.build.json",
     "format": "prettier --write \"src/**/*.ts\" \"test/**/*.ts\"",
     "lint": "eslint \"{src,test}/**/*.ts\" --fix",
