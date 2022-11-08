@@ -49,7 +49,7 @@ class Saman extends driver_1.Driver {
                 String_1: referenceId,
                 String_2: merchantId
             });
-            const responseStatus = response[0]?.result && response[0]?.result['$value'];
+            const responseStatus = response[0]?.result?.$value;
             if (responseStatus < 0) {
                 return API.callbackErrors[responseStatus];
                 //throw new exceptions_1.VerificationException(API.purchaseErrors[responseStatus]);
