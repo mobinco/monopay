@@ -6,7 +6,7 @@ const types_1 = require("../../types");
 exports.links = {
     default: {
         REQUEST: 'https://sep.shaparak.ir/MobilePG/MobilePayment',
-        VERIFICATION: 'https://sep.shaparak.ir/Payments/ReferencePayment.asmx?WSDL', // https://verify.sep.ir/Payments/ReferencePayment.asmx    // https://sep.shaparak.ir/payments/referencepayment.asmx/verifyTransaction
+        VERIFICATION: 'https://sep.shaparak.ir/payments/referencepayment.asmx/verifyTransaction',   // 'https://sep.shaparak.ir/Payments/ReferencePayment.asmx?WSDL', // https://verify.sep.ir/Payments/ReferencePayment.asmx  
         PAYMENT: 'https://sep.shaparak.ir/MobilePG/MobilePayment',
     },
 };
@@ -14,9 +14,9 @@ exports.purchaseErrors = {
     '-1': 'خطای در پردازش اطالعات ارسالی. )مشکل در یکی از ورودیها و ناموفق بودن فراخوانی متد برگشت تراکنش(',
     '-3': 'ورودیها حاوی کارکترهای غیرمجاز میباشند.',
     '-4': 'Failed Authentication Merchant (کلمه عبور یا کد فروشنده اشتباه است(',
-    '-6': 'تراکنش قبال برگشت داده شده است.',
+    '-6': 'تراکنش قبلاً برگشت داده شده است.',
     '-7': 'رسید دیجیتالی تهی است.',
-    '-8': 'طول ورودیها بیشتر از حد مجاز است.',
+    '-8': 'طول ورودی ها بیشتر از حد مجاز است.',
     '-9': 'وجود کارکترهای غیرمجاز در مبلغ برگشتی.',
     '-10': 'رسید دیجیتالی به صورت Base64 نیست )حاوی کارکترهای غیرمجاز است(.',
     '-11': 'طول ورودیها کمتر از حد مجاز است.',
