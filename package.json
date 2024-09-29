@@ -57,15 +57,15 @@
     "typescript": "^4.6.3"
   },
   "dependencies": {
-    "axios": "^0.26.1",
+    "axios": "^1.7.7",
     "crc-32": "^1.2.1",
     "crypto-js": "^4.1.1",
     "fp-ts": "^2.11.9",
     "global": "^4.4.0",
     "io-ts": "^2.2.16",
     "io-ts-reporters": "^2.0.1",
+    "jsdom": "^25.0.1",
     "rimraf": "^3.0.2",
-    "soap": "^0.45.0",
-    "jsdom": "^16.7.0"
+    "soap": "^0.45.0"
   }
 }

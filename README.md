@@ -27,14 +27,14 @@ A node.js package for making payment transactions with different Iranian IPGs wi
 For npm users:
 
 ```shell
-npm install monopay
+npm install github:mobinco/monopay --save
 
 ```
 
 For yarn users:
 
 ```shell
-yarn add monopay
+yarn add github:mobinco/monopay --save
 ```
 
 ## 🚀 Usage
